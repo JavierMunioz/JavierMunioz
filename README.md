@@ -40,4 +40,4 @@ Currently, I do not have any blog posts. Stay tuned for updates!
 
 ## Connect with Me
 
-{}
+- [Web Forge Page](https://webforgeaj.netlify.app/)
