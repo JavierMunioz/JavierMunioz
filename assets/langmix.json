@@ -1,0 +1,11 @@
+{
+  "title": "Language Stack",
+  "_comment": "Valores 0-100. Edita estos o usa --github TU_USUARIO para datos reales.",
+  "axes": [
+    {"label": "Python", "value": 90},
+    {"label": "JavaScript", "value": 78},
+    {"label": "SQL", "value": 75},
+    {"label": "HTML/CSS", "value": 70},
+    {"label": "Bash", "value": 55}
+  ]
+}

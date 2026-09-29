@@ -1,0 +1,34 @@
+name: Charts
+
+# Redibuja los radares cuando cambias assets/*.json o el script.
+# El banner NO se regenera aquí: córrelo en tu PC (tarda ~5 s) y haz commit.
+on:
+  push:
+    paths:
+      - "assets/skills.json"
+      - "assets/langmix.json"
+      - "scripts/radar.py"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  radar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Render radars
+        run: |
+          python scripts/radar.py --data assets/skills.json  -o assets/radar       --values
+          python scripts/radar.py --data assets/langmix.json -o assets/radar-langs --values --color '#ff2ec4'
+      - name: Commit
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/*.svg
+          git diff --cached --quiet || git commit -m "chore: redraw radars"
+          git push

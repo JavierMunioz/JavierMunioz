@@ -1,0 +1,12 @@
+{
+  "title": "Dev Skill Radar",
+  "_comment": "Autoevaluación 0-100. Edita estos valores y el workflow Charts redibuja el radar.",
+  "axes": [
+    {"label": "Backend & APIs", "value": 85},
+    {"label": "Bases de datos", "value": 78},
+    {"label": "Frontend (Vue)", "value": 72},
+    {"label": "Cloud & Infra", "value": 65},
+    {"label": "IA / NLP", "value": 60},
+    {"label": "Automatización", "value": 80}
+  ]
+}

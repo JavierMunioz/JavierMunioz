@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 390" width="960" height="390" role="img" aria-labelledby="title desc">
+  <title id="title">Javier Muñoz (Maxfree203) — Software Developer &amp; Content Creator</title>
+  <desc id="desc">Tarjeta de terminal cyberpunk con la ubicación, misión y enfoque técnico de Javier.</desc>
+  <defs>
+    <linearGradient id="neon" x1="0" x2="1" y1="0" y2="1">
+      <stop stop-color="#00e5ff"/>
+      <stop offset=".55" stop-color="#9d4edd"/>
+      <stop offset="1" stop-color="#ff2ec4"/>
+    </linearGradient>
+    <linearGradient id="sun" x1="0" x2="0" y1="0" y2="1">
+      <stop stop-color="#ff2ec4"/>
+      <stop offset="1" stop-color="#9d4edd"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-30%" width="140%" height="160%">
+      <feGaussianBlur stdDeviation="2.4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="screen"><rect x="651" y="78" width="280" height="271" rx="9"/></clipPath>
+  </defs>
+
+  <rect width="960" height="390" rx="18" fill="#070b1a"/>
+  <rect x="9" y="9" width="942" height="372" rx="13" fill="none" stroke="url(#neon)" stroke-width="2"/>
+  <circle cx="35" cy="35" r="5" fill="#ff2ec4"/>
+  <circle cx="54" cy="35" r="5" fill="#9d4edd"/>
+  <circle cx="73" cy="35" r="5" fill="#00e5ff"/>
+  <text x="98" y="41" fill="#6f7ba8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15">maxfree203  ·  profile shell  ·  online</text>
+  <path d="M29 58H931" stroke="#1f2a55"/>
+
+  <rect x="29" y="78" width="594" height="271" rx="9" fill="#0b1024" stroke="#9d4edd" stroke-width="1.5"/>
+  <text x="48" y="111" fill="#00e5ff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20" font-weight="700">❯ whoami</text>
+  <text x="48" y="143" fill="#e4ecff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18">javier_muñoz <tspan fill="#6f7ba8">—</tspan> <tspan fill="#ff2ec4">Software Dev · Streamer</tspan></text>
+
+  <path d="M48 166H604" stroke="#1f2a55"/>
+  <text x="48" y="196" fill="#6f7ba8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17">context:</text>
+  <text x="166" y="196" fill="#c77dff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17">Barranquilla, Colombia  🇨🇴</text>
+  <text x="48" y="225" fill="#6f7ba8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17">mission:</text>
+  <text x="166" y="225" fill="#7df9ff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17">software que resuelve problemas reales</text>
+
+  <text x="48" y="267" fill="#00e5ff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20" font-weight="700">❯ ls projects/</text>
+  <text x="48" y="299" fill="#ff2ec4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">lagopos/</text>
+  <text x="200" y="299" fill="#e4ecff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">SaaS para restaurantes · QR · KDS · DIAN</text>
+  <text x="48" y="326" fill="#ff2ec4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">lagorithme/</text>
+  <text x="200" y="326" fill="#e4ecff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">freelance · web · automatización</text>
+
+  <rect x="651" y="78" width="280" height="271" rx="9" fill="#0b1024" stroke="#9d4edd" stroke-width="1.5"/>
+  <g clip-path="url(#screen)">
+    <text x="674" y="111" fill="#00e5ff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17">night-city runtime</text>
+    <circle cx="791" cy="206" r="54" fill="url(#sun)" opacity=".95"/>
+    <path d="M660 200H922M660 213H922M660 225H922M660 236H922M660 246H922" stroke="#0b1024" stroke-width="4"/>
+    <rect x="652" y="252" width="278" height="96" fill="#0b1024"/>
+    <path d="M652 252H930M652 262H930M652 276H930M652 294H930M652 318H930M652 346H930" stroke="#ff2ec4" stroke-width="1" opacity=".55"/>
+    <path d="M791 252L652 330M791 252L700 348M791 252L760 348M791 252L822 348M791 252L882 348M791 252L930 330" stroke="#00e5ff" stroke-width="1" opacity=".5"/>
+    <path d="M674 252V230h14v-12h10v34M712 252V222h18v30M890 252V214h16v38M864 252V234h14v18" fill="#070b1a" stroke="#9d4edd" stroke-width="1.5" filter="url(#glow)"/>
+    <text x="674" y="334" fill="#6f7ba8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">status: live on kick/twitch</text>
+  </g>
+</svg>
