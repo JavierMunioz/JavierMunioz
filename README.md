@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- BANNER ANIMADO (scripts/banner/generate.py) -->
-<a href="https://github.com/Maxfree203">
+<a href="https://github.com/JavierMunioz">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
@@ -11,11 +11,11 @@
 
 <br>
 
-<a href="https://github.com/Maxfree203">
+<a href="https://github.com/JavierMunioz">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=700&amp;size=26&amp;duration=2600&amp;pause=900&amp;color=00E5FF&amp;center=true&amp;vCenter=true&amp;width=900&amp;lines=Javier+Mu%C3%B1oz+%E2%80%94+Software+Developer%3BFastAPI+%7C+PostgreSQL+%7C+Vue+3%3BBuilding+LagoPos+%E2%80%A2+SaaS+para+restaurantes%3BLive+on+Kick+%26+Twitch+%E2%80%A2+Maxfree203" alt="Texto animado con el perfil de Javier">
 </a>
 
-<img src="https://komarev.com/ghpvc/?username=Maxfree203&style=flat&color=ff2ec4&label=profile+views" alt="profile views">
+<img src="https://komarev.com/ghpvc/?username=JavierMunioz&style=flat&color=ff2ec4&label=profile+views" alt="profile views">
 
 </div>
 
@@ -128,7 +128,7 @@
 <a href="https://www.twitch.tv/maxfree203">
   <img src="https://img.shields.io/badge/Twitch-9d4edd?style=for-the-badge&logo=twitch&logoColor=white" alt="Twitch">
 </a>&nbsp;&nbsp;
-<a href="https://github.com/Maxfree203">
+<a href="https://github.com/JavierMunioz">
   <img src="https://img.shields.io/badge/GitHub-00e5ff?style=for-the-badge&logo=github&logoColor=070b1a" alt="GitHub">
 </a>
 
